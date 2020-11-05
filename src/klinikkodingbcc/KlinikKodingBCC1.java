@@ -1,4 +1,4 @@
-package klinikkodingbcc1;
+package klinikkodingbcc;
 
 import java.util.Scanner;
 
