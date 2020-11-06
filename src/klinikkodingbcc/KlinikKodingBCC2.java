@@ -3,6 +3,8 @@ package klinikkodingbcc;
  *
  * @author Ibrahimsyah
  */
+import java.util.Scanner;
+
 public class KlinikKodingBCC2 {
     
     
@@ -43,5 +45,84 @@ public class KlinikKodingBCC2 {
         4. jika N genap dan lebih dari 20 maka cetak "Tidak Aneh"
     Buatlah program sederhana sesuai ketentuan diatas
     */
-    
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+//        ~~~Soal 1~~~
+//        int suhu;
+//        String kondisiAwan, hasilPrediksi;
+//        
+//        System.out.print("Masukkan suhu: ");
+//        suhu = in.nextInt();
+//        
+//        in.nextLine();
+//        
+//        if(suhu <= 20) {
+//            System.out.print("Masukkan kondisi awan: ");
+//            kondisiAwan = in.nextLine();
+//            
+//            if(kondisiAwan.equalsIgnoreCase("TEBAL")) {
+//                hasilPrediksi = "Hujan";
+//            } else if(kondisiAwan.equalsIgnoreCase("TIDAK ADA")) {
+//                hasilPrediksi = "Cerah";
+//            } else if(kondisiAwan.equalsIgnoreCase("TIPIS")) {
+//                hasilPrediksi = "Mendung";
+//            } else {
+//                hasilPrediksi = "Tidak ditemukan";
+//            }
+//        } else {
+//            hasilPrediksi = "Cerah";
+//        }
+//        System.out.println("Hasil prediksi " + hasilPrediksi);
+
+//        ~~~Soal 2~~~
+//         final int gajiPokok = 10000;
+//         final int jamPokok = 8;
+//         
+//         int jamKerja, gajiAkhir;
+//         
+//         System.out.print("Masukkan jam kerja: ");
+//         jamKerja = in.nextInt();
+//         
+//         if(jamKerja >= jamPokok) {
+//             int lembur = jamKerja - jamPokok;
+//             
+//             if(lembur == 1) {
+//                 gajiAkhir = gajiPokok + 2000;
+//             } else if(lembur == 2) {
+//                 gajiAkhir = gajiPokok + 4500;
+//             } else if(lembur == 3) {
+//                 gajiAkhir = gajiPokok + 7000;
+//             } else if(lembur > 3) {
+//                 gajiAkhir = gajiPokok + lembur * 3000;
+//             } else {
+//                 gajiAkhir = gajiPokok;
+//             }
+//         } else {
+//             gajiAkhir = 0;
+//         }
+//         
+//         System.out.println("Hasil pendapatan = " + gajiAkhir);
+
+//        ~~~Soal 3~~~
+//        int n;
+//        String hasil;
+//        
+//        System.out.print("masukkan angka: ");
+//        n = in.nextInt();
+//        
+//        if(n%2 == 0) {
+//            if(n>=2 && n<=5) {
+//                hasil = "Tidak aneh";
+//            } else if(n>=6 && n <=20) {
+//                hasil = "Aneh";
+//            } else {
+//                hasil = "Tidak aneh";
+//            }
+//        } else {
+//            hasil = "Aneh";
+//        }
+//        
+//        System.out.println("Angka tersebut " + hasil);
+    }
 }
